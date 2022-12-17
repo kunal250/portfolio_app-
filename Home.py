@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas
-import not_available
 
 
 st.set_page_config(layout="wide")
@@ -42,4 +41,6 @@ with col4:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[source Code]({row['url']})")
+
+
 
